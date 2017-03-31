@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Networking._Layers.Common.Layer" Collapsed="true">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAACAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>_Layers\Common\Layer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Networking._Layers.DataLinkLayer" Collapsed="true">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>_Layers\DataLinkLayer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Networking._Layers.NetworkLayer" Collapsed="true">
+    <Position X="11.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>_Layers\NetworkLayer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Networking._Layers.PhysicalLayer" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>_Layers\PhysicalLayer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Networking._Layers.TransportLayer" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>_Layers\TransportLayer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Networking.Decorators.Common.LayerDecorator" Collapsed="true">
+    <Position X="8.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAgAAAEAAAAAAAAAAAAAAAAAEAAAAAAAABCAAAAA=</HashCode>
+      <FileName>Decorators\Common\LayerDecorator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Networking.Decorators.Ini2ExtendedLayerDecorator" Collapsed="true">
+    <Position X="7.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Decorators\Ini2ExtendedLayerDecorator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Networking.Decorators.Ini2LayerDecorator" Collapsed="true">
+    <Position X="7.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Decorators\Ini2LayerDecorator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Networking.Decorators.IniLayerDecorator" Collapsed="true">
+    <Position X="7.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Decorators\IniLayerDecorator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Networking.Decorators.XmlLayerDecorator" Collapsed="true">
+    <Position X="9.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Decorators\XmlLayerDecorator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Networking.Program" Collapsed="true">
+    <Position X="14.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Networking._Layers.Common.LayerDataType" Collapsed="true">
+    <Position X="14.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAIAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAQAAACA=</HashCode>
+      <FileName>_Layers\Common\LayerDataType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="Networking.Decorators.Common.LayerDelegate" Collapsed="true">
+    <Position X="14.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Decorators\Common\LayerDelegate.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
